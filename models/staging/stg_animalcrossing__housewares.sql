@@ -12,7 +12,7 @@ fields as
         name, 
         unique_entry_id, 
         buy, hha_concept_1, 
-        'house' as table_name 
+        'house' as ori_table_name 
     from housewares
 )
 

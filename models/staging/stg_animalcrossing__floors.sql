@@ -12,7 +12,7 @@ fields as
         name, 
         unique_entry_id, 
         buy, hha_concept_1, 
-        'floor' as table_name 
+        'floor' as ori_table_name 
     from floors
 )
 
