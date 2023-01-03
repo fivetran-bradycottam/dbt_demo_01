@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: animal crossing
+    description: This is a postgres rds db created by fivetran demo team
+    schema: postgres_rds_animal_crossing
+    tables:
+      - name: housewares
+      - name: floors
+      - name: rugs
