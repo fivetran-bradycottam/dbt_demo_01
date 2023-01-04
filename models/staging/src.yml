@@ -8,3 +8,11 @@ sources:
       - name: housewares
       - name: floors
       - name: rugs
+
+
+  - name: covid
+    description: this is postgres db created by Fivetran for covid-19 data
+    schema: postgres_rds_covid19
+    tables: 
+      - name: mask_use_by_country
+      - name: us_counties
