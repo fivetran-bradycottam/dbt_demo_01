@@ -16,3 +16,14 @@ sources:
     tables: 
       - name: mask_use_by_country
       - name: us_counties
+
+
+  - name: dvd
+    description: brady's dvd rental db created manually
+    schema: postgres_dvd_public
+    tables: 
+     - name: payment
+     - name: address
+     - name: city
+     - name: store
+     - name: customer
