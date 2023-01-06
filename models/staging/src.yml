@@ -27,3 +27,4 @@ sources:
      - name: city
      - name: store
      - name: customer
+     - name: staff
